@@ -1,18 +1,13 @@
 import contentful from "contentful";
-import type { Document } from "@contentful/rich-text-types";
-
-export interface BlogPost {
-  title: string;
-  date: string;
-  description: string;
-  content: Document;
-  slug: string;
-}
-
-export interface Navigation {
-  title: string;
-  slug: string;
-}
+// import type { Document } from "@contentful/rich-text-types";
+//
+// export interface BlogPost {
+//   title: string;
+//   date: string;
+//   description: string;
+//   content: Document;
+//   slug: string;
+// }
 
 export const contentfulClient = contentful.createClient({
   space: import.meta.env.CONTENTFUL_SPACE_ID,
