@@ -1,4 +1,4 @@
-# 🚀 Free Astro + Bulma ICO / Crypto template
+# 🚀 Free Astro + React + Contentful template
 
 This is a simple Astro template with contentful integration.
 
