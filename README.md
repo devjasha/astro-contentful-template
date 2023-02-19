@@ -9,6 +9,29 @@ This is a simple Astro template with contentful integration.
 - React lts
 - Tailwind lts
 
+## 🗂️ src structure
+
+```bash
+📦src
+ ┣ 📂components
+ ┃ ┣ 📂elements
+ ┃ ┃ ┗ 📂exampleElement
+ ┃ ┃ ┃ ┣ 📜example.scss
+ ┃ ┃ ┃ ┗ 📜example.tsx
+ ┃ ┣ 📂modules
+ ┃ ┃ ┗ 📜example.tsx
+ ┃ ┣ 📂templates
+ ┃ ┃ ┗ 📜example.tsx
+ ┃ ┗ 📜.DS_Store
+ ┣ 📂layouts
+ ┃ ┗ 📜Layout.astro
+ ┣ 📂lib
+ ┃ ┗ 📜contentful.ts
+ ┣ 📂pages
+ ┃ ┗ 📜index.astro
+ ┗ 📜env.d.ts
+```
+
 ## 👌 Usage
 
 1. Install Depedencies
